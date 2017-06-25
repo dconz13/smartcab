@@ -223,6 +223,7 @@ class Simulator(object):
             # Increment
             total_trials = total_trials + 1
             trial = trial + 1
+            a.trial = a.trial +1
 
         # Clean up
         if self.log_metrics:
